@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.troli.testeaplicacaofirebase.MainActivity">
+    tools:context="com.example.troli.testeaplicacaofirebase.Acitivity.MainActivity">
 
     <EditText
         android:id="@+id/editLogin"
@@ -38,4 +38,24 @@
         android:text="Logar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+    <Button
+        android:onClick="salvarCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar carro"
+        />
+    
+    <ProgressBar
+        android:id="@+id/progressDB"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="exibirDadosUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dados do usuário"/>
 </LinearLayout>

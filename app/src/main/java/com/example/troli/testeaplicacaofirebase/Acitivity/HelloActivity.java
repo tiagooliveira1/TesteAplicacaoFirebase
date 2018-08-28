@@ -1,9 +1,10 @@
-package com.example.troli.testeaplicacaofirebase;
+package com.example.troli.testeaplicacaofirebase.Acitivity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.troli.testeaplicacaofirebase.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.troli.testeaplicacaofirebase.HelloActivity">
+    tools:context="com.example.troli.testeaplicacaofirebase.Acitivity.HelloActivity">
 
     <TextView
         android:id="@+id/txtLoginUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
+
+
 </LinearLayout>
