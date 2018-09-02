@@ -9,6 +9,7 @@ import java.util.Date;
 public class Usuario {
     private String nome;
     private Date dataNascimento;
+
     private int nivelGraduacao;
     private String idioma;
 
@@ -18,6 +19,8 @@ public class Usuario {
         this.nivelGraduacao = nivelGraduacao;
         this.idioma = idioma;
     }
+
+    public Usuario() {}
 
     public String getNome() {
         return nome;
